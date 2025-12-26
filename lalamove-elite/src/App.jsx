@@ -1,15 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { initializeApp } from 'firebase/app';
-import { 
-  getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged 
-} from 'firebase/auth';
-import { 
-  getFirestore, collection, doc, setDoc, addDoc, updateDoc, 
-  deleteDoc, onSnapshot, query, getDocs 
-} from 'firebase/firestore';
 import { 
   Plus, Trash2, Wallet, Target, TrendingUp, Calendar, 
-  Truck, Wrench, Settings, Fuel, Edit2, Check, Hash, 
+  Truck, Wrench, Settings, Edit2, Check, 
   X, AlertCircle, Save, ChevronRight, Cloud, BarChart3, CreditCard,
   ChevronLeft
 } from 'lucide-react';
