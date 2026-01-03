@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Anda boleh tambah warna tema di sini jika perlu */
+@theme {
+  --color-brand: #f57224;
+}
